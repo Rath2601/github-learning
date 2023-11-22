@@ -1,0 +1,68 @@
+ls -a --> shows you all the hidden files also
+cat <file_name> --> to print all the lines of the text file.
+unstaged area --> If I add a new file / folder to the git initialized folder it'll be in the unstaged area
+
+git init --> to initialize a local repository in current directory
+git add . --> stage all the untracked files
+git restore .--> restore all the files to unstage 
+git status --> to get the status
+touch <file_name> --> to create a new file 
+vi <file_name> --> to edit the file in UNIX
+git diff --> shows the difference made in all files after the last commit
+git commit -m --> save the changes in local repository with a message
+git log --> gives you the history of changes
+rm -rf <file_name> --> delete a file 
+ ## (also like creating or modifying the file need to be added to the local repo)
+ 
+git reset <hash_code> --> undo the changes in your working directory and get back to a specific commit while discarding all the commits made after that one
+ 
+git reset --soft <hash_code> --> undo the changes but keep them in staged area.
+git reset --hard <hash_code> --> permanently removes from local repo , commit history, local files.
+                                 Also changes the head to this <hash_code>
+								 
+git stash --> takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy
+
+git stash pop --> to use stashed changes after
+
+git stash clear --> when we don't need 
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+git remote add origin <url> --> This part of the command tells Git that you want to add a remote, which is a link to another copy of the repository.
+
+ remote ==> working with URLs
+ add ==> adding new URL
+ origin ==> name of URL that we're going to add
+ 
+ git remote -v ---> show all the URLs attached to the folder ( fetch & push )
+
+git push origin master  --> to push the changes from local to remote repository
+
+remote: Permission to Rath2601/spring-core.git denied to Raj-Naveen.
+fatal: unable to access 'https://github.com/Rath2601/spring-core.git/': 
+The requested URL returned error: 403
+
+PAT --> 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
+
+git remote set-url origin https://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@github.com/Rath2601/spring-core
+
+git push origin master
+
+Worked
+
+By configuring Git to use your own Personal Access Token, you establish a secure and authorized connection between your local machine and the GitHub repository, resolving the permission issue.
+
+-------------------------------------------------------------------------------------------------------------------
+
+### BRANCHING STRATEGIES
+
+* Never commit or change anything directly on main 
+* create seperate 
+
+git branch <branch_name> --> create a branch 
+git checkout <branch_name> --> change to that branch( Head will point to this branch)
+
+
+ 
+ 
