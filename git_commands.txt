@@ -72,7 +72,7 @@ git checkout <branch_name> --> change to that branch( Head will point to this br
 
 NOTE : never initialize a new repo to this folder as it was already mapped to Rath2601/commands repo. (Else it would result in submodules (repo inside a repo)
 
-* made some changes and create a PR
+* made some changes in NEW_BRANCH and create a PR
 * will do the code review and then merge them
 
  
