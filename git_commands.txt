@@ -64,5 +64,15 @@ git branch <branch_name> --> create a branch
 git checkout <branch_name> --> change to that branch( Head will point to this branch)
 
 
- 
+--------------------------------------------------------------------------------------------------------------------
+
+* Created another GIT account(RathSA1)
+* forked a repo from 1st acct to this
+* cloned commands repo to local.
+
+NOTE : never initialize a new repo to this folder as it was already mapped to Rath2601/commands repo. (Else it would result in submodules (repo inside a repo)
+
+* made some changes in NEW_BRANCH and create a PR
+* will do the code review and then merge them
+
  
