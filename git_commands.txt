@@ -63,7 +63,12 @@ By configuring Git to use your own Personal Access Token, you establish a secure
 git branch <branch_name> --> create a branch 
 git checkout <branch_name> --> change to that branch( Head will point to this branch)
 
+upstream -- > A repository which we have used to fork our own customized project
 
+origin --> A repository which is in a URL (personal)
+
+
+git remote add upstream <url> --> It'll connect main repo's main branch
 --------------------------------------------------------------------------------------------------------------------
 
 * Created another GIT account(RathSA1)
